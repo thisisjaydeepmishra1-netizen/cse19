@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classtest1</title>
+    <style>
+        p{
+            color:green; background-color:antiquewhite ; font-size: large; font-family: Times New Roman;
+        }
+        h1{
+            font-family:Arial; color: blue;
+        }
+        h2{
+            color:green; background-color:antiquewhite; font-family:Verdana;
+        }
+    </style>
+</head>
+<body >
+    <p>"Lorem ipsum dolor sit<br>
+         amet consectetur adipisicing elit.<br>
+          Repellat porro aliquid culpa et nihil laboriosam illo? <br>
+          Et neque unde similique quia non est, eligendi rem <br>
+          cupiditate eaque omnis ex ut.</p>
+    <h1>Class Test 1</h1>
+    <h3>Name:-</h3> Indrazeet Yadav<br>
+    <h3>Branch:-</h3> Btech Cse<br>
+    <h3>College:-</h3> ABES Engineering College<br>
+    <hr>
+    <h2>MY HOBBIES</h2>
+    <p style="color:red">Some of my hobbies are listed below:</p>
+    <ul>
+        <li>Playing Guitar</li>
+        <li>Shooting videos</li>
+        <li>Reading Books</li>
+    </ul>
+    <hr>
+    <img src="https://substackcdn.com/image/fetch/$s_!G1lk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ed3d547-94ff-48e1-9f20-8c14a7030a02_2000x2000.jpeg" alt="Apple Image" style="max-width:30%; height:auto; border-radius:8px;">
+    <hr>
+    <h3>Google</h3>
+    <a href="https://www.google.com/?client=safari&channel=mac_bm" target="_blank">Visit google</a>
+    <h3>Youtube</h3>
+    <a href="https://www.youtube.com/" target="_blank">Visit Youtube</a>
+    <h3>ABES</h3>
+    <a href="https://www.abes.ac.in" target="_blank">Visit ABES </a>
+    <hr>
+    <h2 allign="centre">Table</h2>
+    <table  >
+        <th>Subject</th>
+        <th>Marks</th>
+        <tr>
+            <td>Maths</td>
+            <td>95</td>
+        </tr>
+        <tr>    
+            <td>Web Dev</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>95</td>
+    </table>
+    <hr>
+</body>
+</html>
