@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #e6f3ff;
+      color: #003366;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    "
+  >
+    <form
+      method="post"
+      action="submit.html"
+      style="background-color: #ffffff; border-radius: 8px"
+    >
+      <h1 align="center">Student Registration Form</h1>
+      <hr />
+
+      <!-- Full Name -->
+      <p>
+        <label>Full Name:</label><br />
+        <input
+          type="text"
+          name="fullname"
+          placeholder="Enter your full name"
+          required
+        />
+      </p>
+
+      <!-- Email -->
+      <p>
+        <label>Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter valid email address"
+          required
+        />
+      </p>
+
+      <!-- Password -->
+      <p>
+        <label>Password:</label><br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter password"
+          required
+        />
+      </p>
+
+      <!-- Gender -->
+      <p>
+        <label>Gender:</label><br />
+        <input type="radio" name="gender" value="male" required /> Male
+        <input type="radio" name="gender" value="female" /> Female
+      </p>
+
+      <!-- Course Selection -->
+      <p>
+        <label>Course:</label><br />
+        <select name="course" required>
+          <option value="">-- Select Course --</option>
+          <option value="btech">B.Tech</option>
+          <option value="bca">BCA</option>
+          <option value="mba">MBA</option>
+          <option value="mca">MCA</option>
+        </select>
+      </p>
+
+      <!-- Contact Number -->
+      <p>
+        <label>Contact No:</label><br />
+        <input
+          type="tel"
+          name="contact"
+          placeholder="Enter phone number"
+          required
+        />
+      </p>
+
+      <!-- Address -->
+      <p>
+        <label>Address:</label><br />
+        <textarea
+          name="address"
+          rows="4"
+          placeholder="Enter your address"
+          required
+          style="resize: none"
+        ></textarea>
+      </p>
+
+      <!-- Buttons -->
+      <p>
+        <input type="submit" value="Register" />
+        <input type="reset" value="Clear" />
+      </p>
+    </form>
+  </body>
+</html>
